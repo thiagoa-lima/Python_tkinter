@@ -4,23 +4,20 @@ from tkinter import *
 menu_inicial = Tk()
 menu_inicial.title("Título")
 
-# dimensões da janela
-largura = 500
-altura = 400
+# Centralizar a janela no meio da tela
+# Altura e largura do meu formulário
+width = 500
+height = 400
 
-# resolução do nosso sistema
-largura_screen = menu_inicial.winfo_screenwidth()
-altura_screen = menu_inicial.winfo_screenheight()
-print(largura_screen, altura_screen)
+# Altura e largura da minha tela
+screen_width = menu_inicial.winfo_screenwidth()
+screen_height = menu_inicial.winfo_screenheight()
 
-
-# posicão da janela
-posicaoX = int(largura_screen/2 - largura/2)
-posicaoY = int(altura_screen/2 - altura/2)
-
-print(posicaoX, posicaoY)
+# Deifinição do eixo X e Y
+x = int(screen_width/2 - width/2)
+y = int(screen_height/2 - height/2)
 
 # definir a geometria
-menu_inicial.geometry(f"{largura}x{altura}+{posicaoX}+{posicaoY}")
+menu_inicial.geometry(f"{width}x{height}+{x}+{y}")
 
 menu_inicial.mainloop()
