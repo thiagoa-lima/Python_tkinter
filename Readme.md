@@ -1,8 +1,8 @@
 # Biblioteca tkinter
 
-Esse repositório é uma resumo das atividades feitas no curso para aprender a usar a biblioteca tkinter do professor João Ribeiro.
-O link para acessar o curso é o:
-https://www.youtube.com/watch?v=e2SKXBALAws&list=PLXik_5Br-zO_m8NaaEix1pyQOsCZM7t1h
+<p>Esse repositório é uma resumo das atividades feitas no curso para aprender a usar a biblioteca tkinter do professor João Ribeiro.</p>
+<p>O link para acessar o curso é o:</p>
+<p>https://www.youtube.com/watch?v=e2SKXBALAws&list=PLXik_5Br-zO_m8NaaEix1pyQOsCZM7t1h</p>
 
 ## Objetivo
 
